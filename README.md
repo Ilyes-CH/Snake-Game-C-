@@ -1,6 +1,6 @@
 # Snake Game
 
-A simple cross platform template for setting up a project with the bleeding edge raylib code.
+A simple cross platform Game coded in C++ using Raylib.
 Works with C or C++.
 
 ![demo](./resources/demo.gif)
