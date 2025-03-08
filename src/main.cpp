@@ -44,8 +44,7 @@ public:
     position = GenerateRandomPos(snakeBody);
     // to account for the inital pos of snake
   }
-  ~Food() // destructor to remove any resources when they go out of scope or the
-          // obj is destroyed for better performance and to avoid memory leaks
+  ~Food() 
   {
     UnloadTexture(texture);
   }
@@ -77,7 +76,7 @@ class Snake {
 
 public:
   deque<Vector2> body = {Vector2{6, 4}, Vector2{7, 4},
-                         Vector2{8, 4}}; // deque to push pop from both ends
+                         Vector2{8, 4}}; 
 
   Vector2 direction = {1, 0};
 
